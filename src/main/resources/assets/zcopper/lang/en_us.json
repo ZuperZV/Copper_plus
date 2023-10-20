@@ -1,0 +1,13 @@
+{
+  "block.zcopper.WAXED_COPPER_BRICKS": "Waxed Copper bricks",
+  "block.zcopper.COPPER_BRICKS": "Copper bricks",
+  "block.zcopper.WAXED_COPPER_BRICKS_EXPOSED": "Waxed Copper bricks exposed",
+  "block.zcopper.WAXED_COPPER_BRICKS": "Copper bricks exposed",
+  "block.zcopper.WAXED_COPPER_BRICKS_WEATHERED": "Waxed Copper bricks weathered",
+  "block.zcopper.COPPER_BRICKS_WEATHERED": "Copper bricks weathered",
+  "block.zcopper.WAXED_COPPER_BRICKS_OXIDIZED": "Waxed Copper bricks oxidized",
+  "block.zcopper.COPPER_BRICKS_OXIDIZED": "Copper bricks oxidized",
+
+  "item.zcopper.WASHED_HONEYCOMB": "Washed Honeycomb"
+
+}
