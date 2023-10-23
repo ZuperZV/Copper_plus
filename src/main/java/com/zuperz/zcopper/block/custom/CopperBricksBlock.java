@@ -16,7 +16,7 @@ public class CopperBricksBlock extends Block implements CopperOxidizable {
 
     @Override
     public void randomTick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
-        super.randomTick(pState, pLevel, pPos, pRandom);
+        this.onRandomTick(pState, pLevel, pPos, pRandom);
     }
 
     @Override
