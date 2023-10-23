@@ -1,0 +1,12 @@
+{
+  "values": [
+    "zcopper:copper_bricks",
+    "zcopper:copper_bricks_exposed",
+    "zcopper:copper_bricks_weathered",
+    "zcopper:copper_bricks_oxidized",
+    "zcopper:waxed_copper_bricks",
+    "zcopper:waxed_copper_bricks_exposed",
+    "zcopper:waxed_copper_bricks_weathered",
+    "zcopper:waxed_copper_bricks_oxidized"
+  ]
+}

@@ -1,6 +1,8 @@
 package com.zuperz.zcopper;
 
 import com.mojang.logging.LogUtils;
+import com.zuperz.zcopper.block.ModBlocks;
+import com.zuperz.zcopper.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,6 +25,9 @@ public class ZCopper {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
+
+        ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
