@@ -16,7 +16,12 @@ public interface CopperOxidizable extends ChangeOverTimeBlock<CopperOxidizable.C
         return ImmutableBiMap.<Block, Block>builder()
                 .put(ModBlocks.COPPER_BRICKS.get(), ModBlocks.COPPER_BRICKS_EXPOSED.get())
                 .put(ModBlocks.COPPER_BRICKS_EXPOSED.get(), ModBlocks.COPPER_BRICKS_WEATHERED.get())
-                .put(ModBlocks.COPPER_BRICKS_WEATHERED.get(), ModBlocks.COPPER_BRICKS_OXIDIZED.get()).build();
+                .put(ModBlocks.COPPER_BRICKS_WEATHERED.get(), ModBlocks.COPPER_BRICKS_OXIDIZED.get())
+
+                .put(ModBlocks.COPPER_BRICKS_STAIRS.get(), ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get())
+                .put(ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get(), ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get())
+                .put(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get(), ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get()).build();
+
     });
     Supplier<BiMap<Block, Block>> PREVIOUS_BY_BLOCK = Suppliers.memoize(() -> {
         return NEXT_BY_BLOCK.get().inverse();

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "zcopper:block/copper_bricks_weathered",
+    "side": "zcopper:block/copper_bricks_weathered",
+    "top": "zcopper:block/copper_bricks_weathered"
+  }
+}
