@@ -21,6 +21,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.WASHED_HONEYCOMB);
+
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_STAIRS);
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS);
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS);
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS);
     }
 
 
@@ -38,5 +43,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(ZCopper.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    public void evenSimplerBlockItem(RegistryObject<Block> block) {
+        this.withExistingParent(ZCopper.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
+                modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
     }
 }

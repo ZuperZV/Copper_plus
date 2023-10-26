@@ -7,6 +7,14 @@
     "zcopper:waxed_copper_bricks",
     "zcopper:waxed_copper_bricks_exposed",
     "zcopper:waxed_copper_bricks_weathered",
-    "zcopper:waxed_copper_bricks_oxidized"
+    "zcopper:waxed_copper_bricks_oxidized",
+    "zcopper:copper_bricks_stairs",
+    "zcopper:copper_bricks_exposed_stairs",
+    "zcopper:copper_bricks_weathered_stairs",
+    "zcopper:copper_bricks_oxidized_stairs",
+    "zcopper:waxed_copper_bricks_stairs",
+    "zcopper:waxed_copper_bricks_exposed_stairs",
+    "zcopper:waxed_copper_bricks_weathered_stairs",
+    "zcopper:waxed_copper_bricks_oxidized_stairs"
   ]
 }

@@ -35,11 +35,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get(), blockTexture(ModBlocks.COPPER_BRICKS_EXPOSED.get()));
         stairsBlock((StairBlock) ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get(), blockTexture(ModBlocks.COPPER_BRICKS_WEATHERED.get()));
         stairsBlock((StairBlock) ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get(), blockTexture(ModBlocks.COPPER_BRICKS_OXIDIZED.get()));
+
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject, String appendix) {
         simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("zcopper:block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath() + appendix));
     }
+
+
 
     private void blockItem(RegistryObject<Block> blockRegistryObject) {
         simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile("zcopper:block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
