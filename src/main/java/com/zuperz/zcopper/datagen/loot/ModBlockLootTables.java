@@ -25,6 +25,25 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_STAIRS.get());
         this.dropSelf(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_STAIRS.get());
         this.dropSelf(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS.get());
+
+        this.add(ModBlocks.COPPER_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.COPPER_BRICKS_SLAB.get()));
+        this.add(ModBlocks.COPPER_BRICKS_EXPOSED.get(),
+                block -> createSlabItemTable(ModBlocks.COPPER_BRICKS_EXPOSED.get()));
+        this.add(ModBlocks.COPPER_BRICKS_WEATHERED.get(),
+                block -> createSlabItemTable(ModBlocks.COPPER_BRICKS_WEATHERED.get()));
+        this.add(ModBlocks.COPPER_BRICKS_OXIDIZED.get(),
+                block -> createSlabItemTable(ModBlocks.COPPER_BRICKS_OXIDIZED.get()));
+
+        this.add(ModBlocks.WAXED_COPPER_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WAXED_COPPER_BRICKS_SLAB.get()));
+        this.add(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED.get(),
+                block -> createSlabItemTable(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED.get()));
+        this.add(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED.get(),
+                block -> createSlabItemTable(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED.get()));
+        this.add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED.get(),
+                block -> createSlabItemTable(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED.get()));
+
     }
 
     @Override

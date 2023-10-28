@@ -17,7 +17,15 @@
   "block.zcopper.waxed_copper_bricks_oxidized_stairs": "Waxed Copper bricks oxidized Stairs",
   "block.zcopper.copper_bricks_oxidized_stairs": "Copper bricks oxidized Stairs",
 
-
+  "block.zcopper.waxed_copper_bricks_slab": "Waxed Copper bricks Slab",
+  "block.zcopper.copper_bricks_slab": "Copper bricks Slab",
+  "block.zcopper.waxed_copper_bricks_exposed_slab": "Waxed Copper bricks exposed Slab",
+  "block.zcopper.copper_bricks_exposed_slab": "Copper bricks exposed Slab",
+  "block.zcopper.waxed_copper_bricks_weathered_slab": "Waxed Copper bricks weathered Slab",
+  "block.zcopper.copper_bricks_weathered_slab": "Copper bricks weathered Slab",
+  "block.zcopper.waxed_copper_bricks_oxidized_slab": "Waxed Copper bricks oxidized Slab",
+  "block.zcopper.copper_bricks_oxidized_slab": "Copper bricks oxidized Slab",
+  
   "item.zcopper.washed_honeycomb": "Washed Honeycomb"
 
 }

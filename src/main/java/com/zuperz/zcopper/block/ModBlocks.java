@@ -2,15 +2,13 @@ package com.zuperz.zcopper.block;
 
 import com.zuperz.zcopper.ZCopper;
 import com.zuperz.zcopper.block.custom.CopperBricksBlock;
+import com.zuperz.zcopper.block.custom.CopperBricksSlabBlock;
 import com.zuperz.zcopper.block.custom.CopperBricksStairBlock;
 import com.zuperz.zcopper.block.custom.CopperOxidizable;
 import com.zuperz.zcopper.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.WeatheringCopper;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -70,9 +68,30 @@ public class ModBlocks {
     public static final RegistryObject<Block> WAXED_COPPER_BRICKS_OXIDIZED_STAIRS = registerBlock("waxed_copper_bricks_oxidized_stairs",
             () -> new StairBlock(() -> ModBlocks.COPPER_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
 
+
     //Slabs
 
+    public static final RegistryObject<Block> COPPER_BRICKS_SLAB = registerBlock("copper_bricks_slab",
+            () -> new CopperBricksSlabBlock(CopperOxidizable.CopperOxidizableLevel.UNAFFECTED,
+                    BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB)));
+    public static final RegistryObject<Block> COPPER_BRICKS_EXPOSED_SLAB = registerBlock("copper_bricks_exposed_slab",
+            () -> new CopperBricksSlabBlock(CopperOxidizable.CopperOxidizableLevel.UNAFFECTED,
+                    BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB)));
+    public static final RegistryObject<Block> COPPER_BRICKS_WEATHERED_SLAB= registerBlock("copper_bricks_weathered_slab",
+            () -> new CopperBricksSlabBlock(CopperOxidizable.CopperOxidizableLevel.UNAFFECTED,
+                    BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB)));
+    public static final RegistryObject<Block> COPPER_BRICKS_OXIDIZED_SLAB = registerBlock("copper_bricks_oxidized_slab",
+            () -> new CopperBricksSlabBlock(CopperOxidizable.CopperOxidizableLevel.UNAFFECTED,
+                    BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB)));
 
+    public static final RegistryObject<Block> WAXED_COPPER_BRICKS_SLAB = registerBlock("waxed_copper_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> WAXED_COPPER_BRICKS_EXPOSED_SLAB = registerBlock("waxed_copper_bricks_exposed_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> WAXED_COPPER_BRICKS_WEATHERED_SLAB = registerBlock("waxed_copper_bricks_weathered_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> WAXED_COPPER_BRICKS_OXIDIZED_SLAB = registerBlock("waxed_copper_bricks_oxidized_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.CUT_COPPER_SLAB).sound(SoundType.METAL)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

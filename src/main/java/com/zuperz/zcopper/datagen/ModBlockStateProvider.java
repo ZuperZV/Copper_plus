@@ -4,6 +4,7 @@ import com.zuperz.zcopper.ZCopper;
 import com.zuperz.zcopper.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -35,6 +36,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock((StairBlock) ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get(), blockTexture(ModBlocks.COPPER_BRICKS_EXPOSED.get()));
         stairsBlock((StairBlock) ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get(), blockTexture(ModBlocks.COPPER_BRICKS_WEATHERED.get()));
         stairsBlock((StairBlock) ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get(), blockTexture(ModBlocks.COPPER_BRICKS_OXIDIZED.get()));
+
+        stairsBlock((StairBlock) ModBlocks.WAXED_COPPER_BRICKS_SLAB.get(), blockTexture(ModBlocks.WAXED_COPPER_BRICKS.get()));
+        stairsBlock((StairBlock) ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_STAIRS.get(), blockTexture(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED.get()));
+        stairsBlock((StairBlock) ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_STAIRS.get(), blockTexture(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED.get()));
+        stairsBlock((StairBlock) ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS.get(), blockTexture(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED.get()));
+
+
+        slabBlock(((SlabBlock) ModBlocks.COPPER_BRICKS_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.COPPER_BRICKS_EXPOSED_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.COPPER_BRICKS_WEATHERED_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.COPPER_BRICKS_OXIDIZED_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+
+        slabBlock(((SlabBlock) ModBlocks.WAXED_COPPER_BRICKS_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_SLAB.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()), blockTexture(ModBlocks.COPPER_BRICKS.get()));
 
     }
 

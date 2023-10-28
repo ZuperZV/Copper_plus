@@ -40,8 +40,48 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.WAXED_COPPER_BRICKS_STAIRS.get())
                 .add(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_STAIRS.get())
                 .add(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_STAIRS.get())
-                .add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS.get());
+                .add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS.get())
 
+                .add(ModBlocks.COPPER_BRICKS_SLAB.get())
+                .add(ModBlocks.COPPER_BRICKS_EXPOSED_SLAB.get())
+                .add(ModBlocks.COPPER_BRICKS_WEATHERED_SLAB.get())
+                .add(ModBlocks.COPPER_BRICKS_OXIDIZED_SLAB.get())
+
+                .add(ModBlocks.WAXED_COPPER_BRICKS_SLAB.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_SLAB.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_SLAB.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_SLAB.get());
+
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.COPPER_BRICKS.get())
+                .add(ModBlocks.COPPER_BRICKS_EXPOSED.get())
+                .add(ModBlocks.COPPER_BRICKS_WEATHERED.get())
+                .add(ModBlocks.COPPER_BRICKS_OXIDIZED.get())
+
+                .add(ModBlocks.WAXED_COPPER_BRICKS.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED.get())
+
+                .add(ModBlocks.COPPER_BRICKS_STAIRS.get())
+                .add(ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get())
+                .add(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get())
+                .add(ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get())
+
+                .add(ModBlocks.WAXED_COPPER_BRICKS_STAIRS.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_STAIRS.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_STAIRS.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS.get())
+
+                .add(ModBlocks.COPPER_BRICKS_SLAB.get())
+                .add(ModBlocks.COPPER_BRICKS_EXPOSED_SLAB.get())
+                .add(ModBlocks.COPPER_BRICKS_WEATHERED_SLAB.get())
+                .add(ModBlocks.COPPER_BRICKS_OXIDIZED_SLAB.get())
+
+                .add(ModBlocks.WAXED_COPPER_BRICKS_SLAB.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_SLAB.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_SLAB.get())
+                .add(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_SLAB.get());
     }
 
     @Override

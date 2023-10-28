@@ -20,7 +20,11 @@ public interface CopperOxidizable extends ChangeOverTimeBlock<CopperOxidizable.C
 
                 .put(ModBlocks.COPPER_BRICKS_STAIRS.get(), ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get())
                 .put(ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get(), ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get())
-                .put(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get(), ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get()).build();
+                .put(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get(), ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get())
+
+                .put(ModBlocks.COPPER_BRICKS_SLAB.get(), ModBlocks.COPPER_BRICKS_EXPOSED_SLAB.get())
+                .put(ModBlocks.COPPER_BRICKS_EXPOSED_SLAB.get(), ModBlocks.COPPER_BRICKS_WEATHERED_SLAB.get())
+                .put(ModBlocks.COPPER_BRICKS_WEATHERED_SLAB.get(), ModBlocks.COPPER_BRICKS_OXIDIZED_SLAB.get()).build();
 
     });
     Supplier<BiMap<Block, Block>> PREVIOUS_BY_BLOCK = Suppliers.memoize(() -> {

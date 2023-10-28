@@ -26,6 +26,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS);
         evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS);
         evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS);
+
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_SLAB);
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_EXPOSED_SLAB);
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_WEATHERED_SLAB);
+        evenSimplerBlockItem(ModBlocks.COPPER_BRICKS_OXIDIZED_SLAB);
+
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_SLAB);
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_STAIRS);
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_STAIRS);
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS);
+
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_SLAB);
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_SLAB);
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_SLAB);
+        evenSimplerBlockItem(ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_SLAB);
     }
 
 

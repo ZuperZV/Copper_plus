@@ -26,7 +26,17 @@ public class ModWaxingItem extends Item {
                 .put(ModBlocks.COPPER_BRICKS.get(), ModBlocks.WAXED_COPPER_BRICKS.get())
                 .put(ModBlocks.COPPER_BRICKS_EXPOSED.get(), ModBlocks.WAXED_COPPER_BRICKS_EXPOSED.get())
                 .put(ModBlocks.COPPER_BRICKS_WEATHERED.get(), ModBlocks.WAXED_COPPER_BRICKS_WEATHERED.get())
-                .put(ModBlocks.COPPER_BRICKS_OXIDIZED.get(), ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED.get()).build();
+                .put(ModBlocks.COPPER_BRICKS_OXIDIZED.get(), ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED.get())
+
+                .put(ModBlocks.COPPER_BRICKS_STAIRS.get(), ModBlocks.WAXED_COPPER_BRICKS_STAIRS.get())
+                .put(ModBlocks.COPPER_BRICKS_EXPOSED_STAIRS.get(), ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_STAIRS.get())
+                .put(ModBlocks.COPPER_BRICKS_WEATHERED_STAIRS.get(), ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_STAIRS.get())
+                .put(ModBlocks.COPPER_BRICKS_OXIDIZED_STAIRS.get(), ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_STAIRS.get())
+
+                .put(ModBlocks.COPPER_BRICKS_SLAB.get(), ModBlocks.WAXED_COPPER_BRICKS_SLAB.get())
+                .put(ModBlocks.COPPER_BRICKS_EXPOSED_SLAB.get(), ModBlocks.WAXED_COPPER_BRICKS_EXPOSED_SLAB.get())
+                .put(ModBlocks.COPPER_BRICKS_WEATHERED_SLAB.get(), ModBlocks.WAXED_COPPER_BRICKS_WEATHERED_SLAB.get())
+                .put(ModBlocks.COPPER_BRICKS_OXIDIZED_SLAB.get(), ModBlocks.WAXED_COPPER_BRICKS_OXIDIZED_SLAB.get()).build();
     });
     public static final Supplier<BiMap<Block, Block>> WAX_OFF_BY_BLOCK = Suppliers.memoize(() -> {
         return WAXABLES.get().inverse();

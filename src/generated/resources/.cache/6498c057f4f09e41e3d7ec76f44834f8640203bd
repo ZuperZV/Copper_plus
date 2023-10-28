@@ -1,2 +1,6 @@
-// 1.20.1	2023-10-21T14:26:52.6098847	Item Models: zcopper
+// 1.20.1	2023-10-28T18:27:27.5720195	Item Models: zcopper
+3c3510006472621b70fd14e64fd1f2a03724d539 assets/zcopper/models/item/copper_bricks_exposed_stairs.json
+265cc0afd9ce6bbcdfc75ccf14ebb565a07e6c81 assets/zcopper/models/item/copper_bricks_oxidized_stairs.json
+0da570a1622ff382caf3bc69333062b7feba56ad assets/zcopper/models/item/copper_bricks_stairs.json
+4a1cd58d2ee912c7f778cc41c0c93f6137fc3228 assets/zcopper/models/item/copper_bricks_weathered_stairs.json
 00a6fbd4456c35dfdd1a4cd933fbfa0b196ed00f assets/zcopper/models/item/washed_honeycomb.json
